@@ -11,14 +11,14 @@ new Vue({
 })
 
 axios({
-  url: 'http://123.207.32.32:8000/home/multidata',
+  url: 'http://123.207.32.32:7888/home/multidata',
   // method: 'POST'
 }).then(res => {
   console.log(res)
 })
 
 axios({
-  url: 'http://123.207.32.32:8000/home/data',
+  url: 'http://123.207.32.32:7888/home/data',
   params: {
     type: 'pop',
     page: 1
